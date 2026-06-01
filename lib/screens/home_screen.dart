@@ -62,7 +62,7 @@ class _HomeScreenState extends State<HomeScreen> {
       elevation: 0,
       leading: Padding(
         padding: const EdgeInsets.all(10),
-        child: const LogoWidget(size: 36, darkBackground: false),
+        // child: const, Image.asset('assets/images/logo.png'),
       ),
       title: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -120,7 +120,7 @@ class _HomeScreenState extends State<HomeScreen> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  'Halo, $_username! 👋',
+                  'Halo, $_username! ',
                   style: const TextStyle(
                     color: Colors.white,
                     fontSize: 18,

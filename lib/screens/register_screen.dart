@@ -150,12 +150,12 @@ class _RegisterScreenState extends State<RegisterScreen> {
 
                   const SizedBox(height: 24),
 
-                  // Logo
-                  const LogoWidget(
-                    size: 80,
-                    darkBackground: false,
-                  ),
-                  const SizedBox(height: 20),
+                  // // Logo
+                  // const LogoWidget(
+                  //   size: 80,
+                  //   darkBackground: false,
+                  // ),
+                  // const SizedBox(height: 20),
 
                   // Title
                   const Text(
