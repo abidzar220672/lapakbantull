@@ -187,11 +187,11 @@ class _RegisterScreenState extends State<RegisterScreen> {
                   const SizedBox(height: 8),
                   CustomTextField(
                     controller: _usernameController,
-                    hint: 'Masukkan username unik',
+                    hint: 'Masukkan username',
                     prefixIcon: Icons.person_outline,
                     validator: (val) {
-                      if (val == null || val.isEmpty) return 'Username wajib diisi';
-                      if (val.length < 3) return 'Username minimal 3 karakter';
+                      if (val == null || val.isEmpty) return 'Username wajib diisi!';
+                      if (val.length < 5) return 'Username minimal 5 karakter';
                       return null;
                     },
                   ),
@@ -203,7 +203,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                   const SizedBox(height: 8),
                   CustomTextField(
                     controller: _emailController,
-                    hint: 'contoh@gmail.com',
+                    hint: 'uhuyy@gmail.com',
                     prefixIcon: Icons.email_outlined,
                     keyboardType: TextInputType.emailAddress,
                     validator: (val) {
@@ -238,7 +238,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                           setState(() => _obscurePassword = !_obscurePassword),
                     ),
                     validator: (val) {
-                      if (val == null || val.isEmpty) return 'Password wajib diisi';
+                      if (val == null || val.isEmpty) return 'Password wajib diisi!';
                       if (val.length < 6) return 'Password minimal 6 karakter';
                       return null;
                     },
