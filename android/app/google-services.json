@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "15598088629",
+    "project_id": "lapakbantull-50da5",
+    "storage_bucket": "lapakbantull-50da5.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:15598088629:android:1a9ebd10ec7c8aba42e9fc",
+        "android_client_info": {
+          "package_name": "com.example.lapakbantull"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKg7ZBJoJ9UJ2fSNVq_8F8X3errB4jT-4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
